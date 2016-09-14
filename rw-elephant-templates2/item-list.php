@@ -1,0 +1,1 @@
+<li><a href="[item_url]"><span class="item-photo-crop">[item_photo]</span><br />[item_name]</a></li>

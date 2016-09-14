@@ -1,0 +1,1 @@
+<li><a class="category" href="[category_url]"><div style="height: [category_thumbnail_size]px; width: 100px; background-image: url(/wp-content/rw-elephant-templates/img/[category_id].jpg)" ></div><br />[category_name]</a></li>

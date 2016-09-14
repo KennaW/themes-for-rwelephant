@@ -1,0 +1,31 @@
+.recommend-box li, .item-box li {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  margin: 2px;
+  text-align: center;
+  vertical-align: top;
+}
+.recommend-box li:hover, .item-box li:hover, #recommended-images img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.recommend-box li img, .item-box li img, #item-thumbnail img, #recommended-images img {
+  max-height: 100px;
+  max-width: 100px;
+}
+.recommend-box li.selected, .item-box li.selected {
+  opacity: 0.9;
+  padding: 8px;
+  border: 2px solid #777;
+  border-radius: 10px;
+  background: #ffc;
+}
+#recommended-images img {
+  padding: 5px;
+  display: inline-block;
+}
+#recommended-images img:hover {
+  background-color: #f00;
+  border-radius: 10px;
+}
